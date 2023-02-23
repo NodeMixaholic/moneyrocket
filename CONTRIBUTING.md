@@ -28,17 +28,6 @@ Before you start contributing, familiarize yourself with the Moneyrocket Core bu
 system and tests. Refer to the documentation in the repository on how to build
 Moneyrocket Core and how to run the unit tests, functional tests, and fuzz tests.
 
-There are many open issues of varying difficulty waiting to be fixed.
-If you're looking for somewhere to start contributing, check out the
-[good first issue](https://github.com/moneyrocket/moneyrocket/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22)
-list or changes that are
-[up for grabs](https://github.com/moneyrocket/moneyrocket/issues?utf8=%E2%9C%93&q=label%3A%22Up+for+grabs%22).
-Some of them might no longer be applicable. So if you are interested, but
-unsure, you might want to leave a comment on the issue first.
-
-You may also participate in the weekly
-[Moneyrocket Core PR Review Club](https://moneyrocketcore.reviews/) meeting.
-
 ### Good First Issue Label
 
 The purpose of the `good first issue` label is to highlight which issues are
@@ -54,22 +43,8 @@ and is also an effective way to request assistance if and when you need it.
 
 Communication Channels
 ----------------------
-
-Most communication about Moneyrocket Core development happens on IRC, in the
-`#moneyrocket-core-dev` channel on Libera Chat. The easiest way to participate on IRC is
-with the web client, [web.libera.chat](https://web.libera.chat/#moneyrocket-core-dev). Chat
-history logs can be found
-on [https://www.erisian.com.au/moneyrocket-core-dev/](https://www.erisian.com.au/moneyrocket-core-dev/)
-and [https://gnusha.org/moneyrocket-core-dev/](https://gnusha.org/moneyrocket-core-dev/).
-
 Discussion about codebase improvements happens in GitHub issues and pull
 requests.
-
-The developer
-[mailing list](https://lists.linuxfoundation.org/mailman/listinfo/moneyrocket-dev)
-should be used to discuss complicated or controversial consensus or P2P protocol changes before working on
-a patch set.
-
 
 Contributor Workflow
 --------------------
@@ -83,9 +58,6 @@ To contribute a patch, the workflow is as follows:
   1. Fork repository ([only for the first time](https://docs.github.com/en/get-started/quickstart/fork-a-repo))
   1. Create topic branch
   1. Commit patches
-
-For GUI-related issues or pull requests, the https://github.com/moneyrocket-core/gui repository should be used.
-For all other issues and pull requests, the https://github.com/moneyrocket/moneyrocket node repository should be used.
 
 The master branch for all monotree repositories is identical.
 
@@ -232,7 +204,7 @@ pull request to pull request.
 
 When a pull request conflicts with the target branch, you may be asked to rebase it on top of the current target branch.
 
-    git fetch https://github.com/moneyrocket/moneyrocket  # Fetch the latest upstream commit
+    git fetch https://github.com/nodemixaholic/moneyrocket  # Fetch the latest upstream commit
     git rebase FETCH_HEAD  # Rebuild commits on top of the new base
 
 This project aims to have a clean git history, where code changes are only made in non-merge commits. This simplifies
@@ -430,12 +402,8 @@ A backport should contain the following metadata in the commit body:
 Github-Pull: #<PR number>
 Rebased-From: <commit hash of the original commit>
 ```
-
-Have a look at [an example backport PR](
-https://github.com/moneyrocket/moneyrocket/pull/16189).
-
 Also see the [backport.py script](
-https://github.com/moneyrocket-core/moneyrocket-maintainer-tools#backport).
+https://github.com/nodemixaholic/moneyrocket/moneyrocket-maintainer-tools#backport).
 
 Copyright
 ---------
