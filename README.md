@@ -1,5 +1,5 @@
 <img src="moneyrocket-logo.png" align="right" width="30%"/>
-Moneyrocket Core integration/staging tree
+# Moneyrocket Core
 =====================================
 
 https://sparksammy.com
