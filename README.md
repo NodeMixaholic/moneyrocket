@@ -1,6 +1,5 @@
 <img src="moneyrocket-logo.png" align="right" width="30%"/>
 # Moneyrocket Core
-=====================================
 
 https://sparksammy.com
 
